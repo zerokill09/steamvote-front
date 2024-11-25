@@ -27,7 +27,7 @@ export default function LoginForm() {
       location.reload();
     } catch (error: unknown) {
       console.log(error);
-      alert("로그인에 실패하였습니다");
+      alert("로그인에 실패하였습니다.");
     }
   };
 
